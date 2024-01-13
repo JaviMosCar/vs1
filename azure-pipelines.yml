@@ -13,7 +13,7 @@ steps:
 - task: Docker@2
   displayName: 'Docker Compose Up'
   inputs:
-    command: 'composeUp'
+    command: 'compose'
     dockerComposeFile: '**/docker-compose.yml'
     removeContainersOnPull: true
     detachedService: true
