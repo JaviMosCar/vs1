@@ -7,8 +7,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo 'Iniciando Docker Build y Compose'
-  displayName: 'Iniciando Docker Build y Compose'
+- script: echo 'Iniciando Docker Compose'
+  displayName: 'Iniciando Docker Compose'
 
 - task: Docker@2
   displayName: 'Docker Compose Up'
